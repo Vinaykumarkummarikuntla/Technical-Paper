@@ -1,6 +1,6 @@
 # Load Balancers
 
-####  Load balancing
+ **What is Load balancing?**
 
 Load balancing is about troubleshooting the distribution of inbound network and application traffic across multiple servers. With hundreds of user (or client) requests coming in every minute, it’s hard for any one server to keep up and continually display high-quality photos, videos, text, and application data at the speed at which many users have become accustomed.
 
@@ -16,7 +16,7 @@ By helping servers move data efficiently, information flow between the server an
 
 As the servers can also be physical or virtual, a load balancer can also be a hardware appliance or a software-based virtual one. When a server goes down, the requests are directed to the remaining servers and when a new server gets added, the requests automatically start getting transferred to it.
 
-**2.2 Types of Load Balancers – Based on Functions**
+**1.2 Types of Load Balancers – Based on Functions**
 
 Several load balancing techniques are there for addressing the specific network issues:
 
@@ -24,19 +24,19 @@ Several load balancing techniques are there for addressing the specific network 
 * Application Load Balancer / Layer 7 (L7) Load Balancer:
 * Global Server Load Balancer/Multi-site Load Balancer:
   
-##### 2.3 Types of Load Balancers – Based on Configurations
+**1.3 Types of Load Balancers – Based on Configurations**
 
 * Hardware Load Balancers
 * Software Load Balancers
 * Virtual Load Balancers
   
-#### 3.Benefits of Load Balancers
+### 2.Benefits of Load Balancers
 
-**1.**Enhanced Performance:****
+**1.Enhanced Performance:**
 
 Load Balancers reduce the additional load on a particular server and ensures seamless operations and response, giving the clients a better experience.
 
-**2.**Resilience:****
+**2.Resilience:**
 
 The failed and under-performing components can be substituted immediately and giving information about which equipment needs service, with nil or negligible downtime.
 
@@ -91,7 +91,7 @@ This approach is the best solution for projects which have requirements for high
 * High utility costs such (cooling and electricity)
 * The requirement of extra networking equipment such as routers and switches.
 
-### Comparison between Horizontal and Vertical
+#### Comparison between Horizontal and Vertical
 
 |  Horizontal Scaling| Vertical Scaling|
 | --- | ---|
@@ -107,3 +107,14 @@ It doesn’t always make sense to choose between horizontal and vertical scaling
 Building flexibility into the system, where some layers of the application run on vertically scaled machines and other layers on horizontally scaled infrastructure remains a matter of designing for parallelization. To achieve this, (i) design it from the outset as a decoupled set of services, making the code easier to move, meaning you can add more resources when needed without breaking the ties between your code sets; (ii) partition your application and data model so the parallel units don’t share anything.
 
 It’s likely that the industry will increasingly migrate towards a horizontally distributed approach to scaling architecture. This trend is driven by the demand for more reliability through a redundancy strategy, and the requirement for improved utilization through resource sharing as a result of migration to cloud/SaaS environments. However, combining this with a vertical scaling approach can allow us to benefit from both paradigms.
+
+## References
+**1.Load Balancers** : https://www.appviewx.com/education-center/load-balancer-and-types/
+
+
+
+**2.Scaling** : https://www.geeksforgeeks.org/system-design-horizontal-and-vertical-scaling/
+
+
+
+
